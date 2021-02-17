@@ -1,6 +1,6 @@
 ---
 - name: Deploy new prodaction servers
-  hosts: testkube
+  hosts: test
   become: yes
   
   tasks:
