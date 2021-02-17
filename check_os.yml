@@ -1,0 +1,8 @@
+---
+- name: Deploy new prodaction servers
+  hosts: testkube
+  become: yes
+  
+  tasks:
+  - name: Check and print LINUX version
+    debug: var=ansible_os_family
